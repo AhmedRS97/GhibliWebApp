@@ -5,8 +5,9 @@ This simple web app gets data from https://ghibliapi.herokuapp.com/ and display 
 The requirement to run this app is to install python 3, Django and pipenv in your OS.
 
 install Django and Django rest framework and other libs in a virtual enviornment:
-`cd /path/to/project/root/`
-`pipenv install`
+
+1. `cd /path/to/project/root/`
+2. `pipenv install`
 
 ## Run the application
 `python manage.py runserver`
