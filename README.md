@@ -13,7 +13,7 @@ install Django and Django rest framework and other libs in a virtual enviornment
 `python manage.py runserver`
 
 ## Run tests
-`coverage run --source='api' manage.py test api`
+`coverage run --source='.' manage.py test .`
 
 ## Get code coverage
 `coverage report`
