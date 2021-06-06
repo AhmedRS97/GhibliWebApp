@@ -9,5 +9,9 @@ class ServiceRequestError(APIException):
     default_detail = "Http error from the API service."
 
 
-class InvalidResponseDataError(APIException):
+class EmptyDataResponseError(APIException):
     default_detail = "Invalid data returned from the API service."
+
+
+class JSONResponseError(APIException):
+    default_detail = "Error decoding JSON data to python data structures."
